@@ -32,20 +32,6 @@ Se utilizó el dataset `landing_experiment.csv`, con información de usuarios ex
 - **matplotlib / seaborn** — visualización de resultados
 - **Jupyter Notebook**
 
-## 📁 Estructura del repositorio
-
-```
-landing-page-ab-testing/
-├── README.md
-├── data/
-│   └── raw/
-│       └── landing_experiment.csv
-├── notebooks/
-│   └── S9_Version_Student_Proyecto_Landing_Experiment.ipynb
-├── images/
-└── LICENSE
-```
-
 ## 📊 Diccionario de datos
 
 | Columna | Descripción |
@@ -80,6 +66,7 @@ landing-page-ab-testing/
 
 - **Gasto promedio:** existe diferencia estadísticamente significativa entre los grupos (prueba T de Welch, p < 0.05); la página B muestra un gasto promedio ~12.5% mayor que la página A entre usuarios convertidos.
 - **Tasa de conversión:** existe diferencia estadísticamente significativa entre los grupos (prueba Z de dos proporciones, p < 0.05); las tasas fueron 12.5% (A) vs. 16% (B), una diferencia de ~3.5 puntos porcentuales.
+![Conversión por canal de tráfico](images/image1.png)
 - **Fuente de tráfico vs. conversión:** existe una asociación estadísticamente significativa (Chi-cuadrado, p < 0.05), aunque las diferencias entre tasas de conversión por canal son pequeñas (todas por debajo del 20%), por lo que no se sugiere reenfocar la inversión de marketing hacia un canal específico.
 - **Tipo de usuario vs. conversión:** no existe evidencia estadística de asociación (Chi-cuadrado, p > 0.05); el tipo de usuario no debería usarse como criterio de segmentación para esta estrategia.
 - **Recomendación de negocio:** adoptar la página B como versión definitiva del sitio, dado el incremento tanto en gasto promedio como en tasa de conversión.
@@ -93,7 +80,3 @@ landing-page-ab-testing/
 
 - Monitorear el desempeño de la página B tras su implementación completa para confirmar la mejora observada (validación post-lanzamiento)
 - Explorar segmentaciones adicionales (región, dispositivo) para identificar oportunidades de optimización más específicas
-
-## 📄 Licencia
-
-Este proyecto se comparte bajo la licencia MIT. Ver [LICENSE](LICENSE) para más detalles.
